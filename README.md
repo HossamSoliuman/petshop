@@ -1,6 +1,5 @@
 # Pet Shop Laravel Project
-![The San Juan Mountains are beautiful!](https://github.com/HossamSoliuman/petshop/img/pet-shop-website-template.jpg "San Juan Mountains")
-![Alt text](https://via.placeholder.com/1024x768?text=Optional+Image+Here)
+![The San Juan Mountains are beautiful!](https://github.com/HossamSoliuman/petshop/blob/main/public/pet-shop-website-template.jpg "San Juan Mountains")
 ## Description
 
 This is a Laravel-based application for managing and running a pet shop. The application allows you to display products, services, members, and other information
@@ -63,6 +62,6 @@ Finally, visit http://localhost:8000 to view the site.
 ## admin panel that can be accessed by visiting 
 http://localhost:8000/admin
 
-###Observation
+##Observation
 
 I developed this project out of my head, not on YouTube
