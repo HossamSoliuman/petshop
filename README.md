@@ -59,7 +59,7 @@ php artisan serve
 
 Finally, visit http://localhost:8000 to view the site.
 
-## admin panel that can be accessed by visiting 
+## admin panel can be accessed by visiting 
 http://localhost:8000/admin
 
 ## Observation
