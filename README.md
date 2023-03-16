@@ -62,6 +62,6 @@ Finally, visit http://localhost:8000 to view the site.
 ## admin panel that can be accessed by visiting 
 http://localhost:8000/admin
 
-##Observation
+## Observation
 
 I developed this project out of my head, not on YouTube
