@@ -19,7 +19,7 @@ class MemberFactory extends Factory
         return [
             'name'=>fake()->name(),
             'job'=>fake()->text(10),
-            'photo'=>time().'.'.'png'
+            'photo'=> fake()->randomElement(['team-5.jpg','team-4.jpg','team-3.jpg'])
         ];
     }
 }

@@ -3,7 +3,7 @@
     <form action="" method="get">
         <button type="submit" name="add" class="btn btn-primary">Add Product</button>
     </form>
-    @isset( $_GET['add'] )
+    @if(request()->has('add') )
     <div class="mt-4 mb-4">
        <form class="form" method="POST" enctype="multipart/form-data" action="{{route('admin.product.store')}}" >
         @csrf
@@ -16,8 +16,10 @@
         <input type="submit" value="Add">  
        </form> 
     </div>
-    @endisset
-    @isset( $_GET['edit'] )
+    @endif
+    @if (request()->has('edit'))
+        
+    
     <div class="mt-4 mb-4">
        <form class="form" action="{{route('admin.product.update',['product'=>$_GET['id']]) }}" method="POST">
         @csrf
@@ -31,7 +33,7 @@
     </form>
     </div>
 
-    @endisset
+    @endif
 
     <table class="table table-sm">
         <thead>

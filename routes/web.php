@@ -47,5 +47,6 @@ Route::post('/comment',[CommentController::class,'store'])->name('comment.store'
 Route::post('/comment',[CommentController::class,'store'])->name('comment.store');
 
 Route::view('/contact','contact');
+Route::view('/about','about');
 
 

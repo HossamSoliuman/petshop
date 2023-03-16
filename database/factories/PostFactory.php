@@ -17,7 +17,7 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            'photo'=>time(),
+            'photo'=> fake()->randomElement(['blog-1.jpg','blog-2.jpg']),
             'name'=>fake()->name(),
             'title'=>fake()->text(20),
             'body'=>fake()->sentence(10)

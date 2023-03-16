@@ -18,7 +18,7 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            'photo'=>time(),
+            'photo'=>fake()->randomElement(['1.jpg','2.jpg','3.jpg']),
             'name'=> $this->faker->text(7),
             'price'=>Random::generate(2,'2-9')
         ];
